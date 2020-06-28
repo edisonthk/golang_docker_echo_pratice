@@ -7,3 +7,10 @@ services:
       - .:/opt/app
     ports:
       - 8080:8080
+  db:
+    image: mysql:8.0.20
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+volumes:
+  mysql:
