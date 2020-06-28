@@ -3,6 +3,7 @@ module myapp
 go 1.14
 
 require (
+	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/labstack/echo/v4 v4.1.16
 	github.com/valyala/fasttemplate v1.1.1 // indirect
 	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9 // indirect
